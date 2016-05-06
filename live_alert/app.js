@@ -55,7 +55,7 @@ function setLiveOff(){
 	}
 }
 
-checkEveryNMinutes = 5;
+checkEveryNMinutes = 2;
 setInterval(checkIfLiveStream, checkEveryNMinutes*60000);
 
 document.addEventListener('DOMContentLoaded', function(){
