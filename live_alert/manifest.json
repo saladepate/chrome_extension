@@ -1,0 +1,26 @@
+{
+   "author": "Salade&Paté",
+   "background": {
+      "scripts": [ "app.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "ressources/streamOff/streamOff19.png",
+         "38": "ressources/streamOff/streamOff38.png"
+      },
+      "default_title": "Salade & Paté bitchiezzz"
+   },
+   "description": "be alerted when SALADE & PATÉ iz live",
+   "homepage_url": "http://saladepate.fr",
+   "icons": {
+      "16": "ressources/logo/logo16.png",
+      "48": "ressources/logo/logo48.png",
+      "128": "ressources/logo/logo128.png"
+   },
+   "key": "",
+   "manifest_version": 2,
+   "name": "Salade&Paté - Live Stream Alert",
+   "permissions": [ "notifications" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}
